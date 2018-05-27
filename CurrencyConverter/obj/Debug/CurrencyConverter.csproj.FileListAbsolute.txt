@@ -1,0 +1,16 @@
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\bin\Debug\CurrencyConverter.exe.config
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\bin\Debug\CurrencyConverter.exe
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\bin\Debug\CurrencyConverter.pdb
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.csprojResolveAssemblyReference.cache
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\App.g.cs
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter_MarkupCompile.cache
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter_MarkupCompile.lref
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.g.resources
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.Properties.Resources.resources
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.GenerateResource.cache
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.csproj.CoreCompileInputs.cache
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.exe
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\CurrencyConverter.pdb
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\View\CurrencyWindow.g.cs
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\View\CurrencyWindow.baml
+c:\users\pis7ftw\source\repos\CurrencyConverter\CurrencyConverter\obj\Debug\GeneratedInternalTypeHelper.g.cs

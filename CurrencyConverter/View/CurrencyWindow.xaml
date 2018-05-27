@@ -1,0 +1,59 @@
+﻿<Window x:Class="CurrencyConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyConverter"
+        xmlns:vm="clr-namespace:CurrencyConverter.ViewModel"
+        mc:Ignorable="d"
+        Title="Simple Currency Converter" Height="136.851" Width="411.181">
+    <Window.DataContext>
+        <vm:CurrencyConverterViewModel/>
+    </Window.DataContext>
+
+    <StackPanel Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="123"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Column="0" Grid.Row="0">
+                <TextBlock Text="Currency"
+                       Margin="5"
+                       Padding="2"/>
+                <TextBlock Text="Amount"
+                       Margin="5"
+                       Padding="2"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Grid.Row="0">
+                <ComboBox Margin="5"
+                    SelectedItem="{Binding SelectedCurrency}"
+                    ItemsSource="{Binding Currencies}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Title}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+
+                </ComboBox>
+                <TextBox Text="{Binding Euros, UpdateSourceTrigger=PropertyChanged}"
+                        Padding="2"
+                        Margin="5"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel Orientation="Horizontal">
+            <Label Content="{Binding Converted}"
+               Margin="5"
+               Padding="2"/>
+            <TextBlock Text="{Binding ResultText}" Padding="2" Margin="5"/>
+        </StackPanel>
+
+
+
+
+    </StackPanel>
+</Window>
